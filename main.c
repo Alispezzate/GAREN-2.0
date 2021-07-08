@@ -17,15 +17,15 @@ int main() {
                     switch (level)
                     {
                     case 1:
-                        total = ((totHealth + 750) / 6);
+                        total = ((totHealth + 600) / 5);
                         printf("The optimal ultimate damage is %d\n", total);
                         break;
                     case 2:
-                        total = ((totHealth + 1200) / 5);
+                        total = ((totHealth + 1000) * 3 / 13);
                         printf("The optimal ultimate damage is %d\n", total);
                         break;
                     case 3:
-                        total = ((totHealth + 1500) * 3 / 13);
+                        total = ((totHealth + 9000 / 7) * 7 / 27);
                         printf("The optimal ultimate damage is %d\n", total);
                         break;
                     default:
