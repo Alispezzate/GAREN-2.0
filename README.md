@@ -8,6 +8,10 @@ TODO:<br>
 -Add information about garen ultimate and reasons to use the program<br>
 -And more<br>
 
+Instructions to compile:
+For windows use "gcc main.c -D windows"
+For Linux/MacOS use "gcc main.c -D unix"
+
 Updated as of LoL patch 11.14.
 
 This is a fan-made app and all rights are reserved to Riot Games based in Santa Monica, California.
