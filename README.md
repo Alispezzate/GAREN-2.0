@@ -8,8 +8,8 @@ TODO:<br>
 -Add information about garen ultimate and reasons to use the program<br>
 -And more<br>
 
-Instructions to compile:
-For windows use "gcc main.c -D windows"
+Instructions to compile:<br>
+For windows use "gcc main.c -D windows"<br>
 For Linux/MacOS use "gcc main.c -D unix"
 
 Updated as of LoL patch 11.14.
