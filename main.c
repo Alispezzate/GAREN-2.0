@@ -48,7 +48,12 @@ int main() {
                 printf("Type c to calculate, type e to exit\n");
                 while(getchar()!='\n');
                 scanf("%c", &c);
+                #ifdef windows
                 system("@cls");
+                #endif
+                #ifdef unix
+                system("clear");
+                #endif
                 break;
             case 'e':
                 exit(1);
